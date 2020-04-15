@@ -6,16 +6,20 @@ const express = require('express')
 const app = express()
 
 // root path of the website's files
-const SITE = process.argv[2] || process.cwd()
+const SITE = path.resolve(process.argv[2] || process.cwd())
 
 
 
 app.use(express.urlencoded({ extended: true }))
 
 app.use((req, res, next) => {
-  const filePath = path.resolve(SITE, (req.path.substr(1) || 'index') + '.html.js')
+  let route = req.path.substr(1) || 'index';
+  if(!route.match(/.*\.html\.js$/)) {
+    route += '.html.js';
+  }
+  const filePath = path.resolve(SITE, route)
 
-  // try to find a .html.js file
+  // try to find an .html.js file
   if(fs.existsSync(filePath)) {
 
     // Load the JS code and then clear it from the module cache. This is so that
