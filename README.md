@@ -54,6 +54,9 @@ an HTML string doesn't have to mess with it. The request body is parsed as being
 Your `.html.js` files are just regular JavaScript files, so you can import 
 libraries or do whatever additional logic you may want to do in them.
 
+A full example site can be found here: 
+[https://github.com/brundonsmith/jhp-example-site](https://github.com/brundonsmith/jhp-example-site)
+
 # Tips
 
 Your JavaScript functions can construct their HTML strings in whatever way you
