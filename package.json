@@ -1,6 +1,6 @@
 {
   "bin": {
-    "jhp": "./index.js"
+    "jhp-serve": "./index.js"
   },
   "name": "jhp-serve",
   "version": "1.0.1",
