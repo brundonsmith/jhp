@@ -5,10 +5,22 @@
   "name": "jhp",
   "version": "1.0.0",
   "description": "JHP: Hypertext Preprocessor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brundonsmith/jhp"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "jhp",
+    "php",
+    "web",
+    "website",
+    "html",
+    "server"
+  ],
   "author": "Brandon Smith",
   "license": "ISC",
   "dependencies": {
