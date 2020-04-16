@@ -2,7 +2,7 @@
   "bin": {
     "jhp": "./index.js"
   },
-  "name": "jhp",
+  "name": "jhp-serve",
   "version": "1.0.0",
   "description": "JHP: Hypertext Preprocessor",
   "repository": {
