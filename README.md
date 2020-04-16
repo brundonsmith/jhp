@@ -11,7 +11,7 @@ This project aims to recreate that PHP experience, in JavaScript.
 
 ## Running the server
 ```bash
-npx jhp ./my-proj  # Assumes you have Node/npm installed
+npx jhp-serve ./my-proj  # Assumes you have Node/npm installed
 ```
 
 ## Project structure
