@@ -3,7 +3,7 @@
     "jhp-serve": "./index.js"
   },
   "name": "jhp-serve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JHP: Hypertext Preprocessor",
   "repository": {
     "type": "git",
